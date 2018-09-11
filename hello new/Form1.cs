@@ -17,10 +17,11 @@ namespace hello_new
             InitializeComponent();
         }
 
-        private void button1_(object sender, EventArgs e)
-        
-        
-            MessageBoxShow("Hello")
+            
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello " + txtBxName.Text);
         }
+
     }
 }
